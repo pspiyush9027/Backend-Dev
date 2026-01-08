@@ -1,0 +1,56 @@
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git branch
+* main
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git checkout -b nodejs-programming
+Switched to a new branch 'nodejs-programming'
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git branch
+  main
+* nodejs-programming
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git add console.js
+fatal: pathspec 'console.js' did not match any files
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> git add console
+fatal: pathspec 'console' did not match any files
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev> cd nodejs-programming
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git add console.js   
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git commit -m "[piyush].add console methods,let,var,const";
+[nodejs-programming 60faebf] [piyush].add console methods,let,var,const
+ 1 file changed, 20 insertions(+)
+ create mode 100644 nodejs-programming/console.js
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git push 
+fatal: The current branch nodejs-programming has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin nodejs-programming
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git status
+On branch nodejs-programming
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        stringmethods.js
+
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git add stringmethods.js
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git commit -m "[piyush] .add string methods ";
+[nodejs-programming 8e3c2f4] [piyush] .add string methods
+ 1 file changed, 15 insertions(+)
+ create mode 100644 nodejs-programming/stringmethods.js
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 630 bytes | 630.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pspiyush9027/Backend-Dev.git
+   60faebf..8e3c2f4  nodejs-programming -> nodejs-programming
+PS C:\Users\ASUS\Desktop\backend-dev\Backend-Dev\nodejs-programming> git status
+On branch nodejs-programming
+Your branch is up to date with 'origin/nodejs-programming'.
+
+nothing to commit, working tree clean
