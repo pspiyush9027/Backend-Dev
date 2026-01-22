@@ -1,5 +1,10 @@
-let {createFile, readFile, countWords }= require('./question1');
-
-createFile();
-readFile();
+//question1
+let { countWords, }= require('./question1');
 countWords();
+
+//question2
+let { capitalstring,reverseString,countvowels} = require('./question2');
+
+capitalstring();
+reverseString();
+countvowels();
