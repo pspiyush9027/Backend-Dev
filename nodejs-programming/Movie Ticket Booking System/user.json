@@ -1,0 +1,20 @@
+[
+  {
+    "userId": 1770789838036,
+    "name": "kathal",
+    "email": "kathal@gmail.com",
+    "password": "kathal"
+  },
+  {
+    "userId": 1770790364339,
+    "name": "shimlamirch",
+    "email": "shimla@gmail.com",
+    "password": "shimla"
+  },
+  {
+    "userId": 1770790372168,
+    "name": "piyush",
+    "email": "123@gmail.com",
+    "password": "kaddu"
+  }
+]
